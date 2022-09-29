@@ -4,3 +4,11 @@
 ![WhatsApp Image 2022-09-29 at 12 58 37 PM](https://user-images.githubusercontent.com/72681916/192969257-c7d64ad5-410e-4d3b-9fb0-c0d3a1acf74a.jpeg)
 ![WhatsApp Image 2022-09-29 at 12 58 36 PM (3)](https://user-images.githubusercontent.com/72681916/192969293-4687891b-621b-442d-a503-df1705f579f3.jpeg)
 ![WhatsApp Image 2022-09-29 at 12 58 36 PM (2)](https://user-images.githubusercontent.com/72681916/192969336-e06389f7-cd2d-4e18-85a1-baec4125b4ee.jpeg)
+
+### Developer- Parth Lunagariya
+### This app is designed to perform CRUD operation in two database which is namely SQLite And Room databse
+### Sign In and Sign up using SQLite and Room Db 
+### Required validation are applide. Such as User name msut be unique, gmail validation, password validation like password must contain one upper-case, lower-case and special character;
+### Stay logged in using shared preferences.
+### User has a choice that he/she want to store their data in which databse
+### While we are talking about SQLite databse - Multiple user login and sign up supported, user can delete single data or whole databse at a time, user guide screen with video so the user can get to know about the application. 
