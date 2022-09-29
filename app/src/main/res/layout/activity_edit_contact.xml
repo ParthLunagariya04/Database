@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddContactsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/drawer_icon_color"
+            android:backgroundTint="@android:color/transparent"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_contact_color"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/back_imageButton_editContact"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginStart="10dp"
+                    android:background="#0000"
+                    android:contentDescription="@string/todo12"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_back"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:text="Edit Contact"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="-40dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/profile_image_editContact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image2" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/profile_update_textView_addContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="-0.02"
+            android:text="change profilr picture"
+            android:textColor="#6B36BC"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/name_editText_editContact"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="37dp"
+            android:autofillHints="no"
+            android:background="@drawable/edit_text_fields"
+            android:hint="@string/enter_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+
+        <EditText
+            android:id="@+id/mobileNo_editText_editContact"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/edit_text_fields"
+            android:hint="Mobile No."
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/mobileNo2_editText_editContact"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/edit_text_fields"
+            android:hint="Mobile No."
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/email_editText_editContact"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/edit_text_fields"
+            android:hint="Email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TextFields,TouchTargetSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save_button_editContact"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple_500"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minHeight="48dp"
+                android:layout_gravity="top"
+                android:paddingVertical="10dp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/cancel_button_editContact"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="37dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="top"
+                android:backgroundTint="@color/red"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minHeight="48dp"
+                android:paddingVertical="10dp"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

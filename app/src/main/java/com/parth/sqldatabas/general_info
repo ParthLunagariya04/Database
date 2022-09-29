@@ -1,0 +1,17 @@
+@Entity(tableName = "contacts")
+public class Contacts {
+    @PrimaryKey(autoGenerate = true)
+    private int id_;
+
+    @ColumnInfo(name = "full_name_")
+    private String full_name_;
+
+    @ColumnInfo(name = "mobileNo_1")
+    private String mobileNo_1;
+
+    @ColumnInfo(name = "mobileNo_2")
+    private String mobileNo_2;
+
+    @ColumnInfo(name = "email_")
+    private String email_;
+}

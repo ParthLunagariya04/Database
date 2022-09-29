@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:letterSpacing="0.03"
+            android:text="@string/log_in"
+            android:textColor="#3E3C47"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/userName_editText_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="37dp"
+            android:autofillHints="no"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/enter_user_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+
+        <EditText
+            android:id="@+id/password_editText_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TextFields,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/login_button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingHorizontal="0dp"
+            android:paddingVertical="10dp"
+            android:text="@string/log_in_using_sqlite"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/login_button_roomDb_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/red"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingHorizontal="0dp"
+            android:paddingVertical="10dp"
+            android:text="@string/log_in_using_roomdb"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:cornerRadius="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingEnd="36dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?.."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/signUp_text_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sign Up"
+                android:textColor="@color/purple_500"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

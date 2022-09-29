@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:letterSpacing="0.03"
+            android:text="Edit Details"
+            android:textStyle="bold"
+            android:textColor="#3E3C47"
+            android:textSize="25sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="82dp"
+            android:layout_height="78.01dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/profile_image_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mark_zuckerberg"
+                android:contentDescription="@string/todo1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/profile_update_textView_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15.99dp"
+            android:letterSpacing="-0.02"
+            android:text="change profilr picture"
+            android:textColor="#6B36BC"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/full_name_editText_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="37dp"
+            android:autofillHints="no"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/edit_full_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/userName_editText_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:autofillHints="no"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/edit_user_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/email_editText_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:autofillHints="no"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/change_email"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TextFields,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/mobileNo_editText_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/change_mobile_no"
+            android:importantForAutofill="no"
+            android:maxLength="10"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/password_editText_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/rectangle1"
+            android:hint="@string/change_password"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="13dp"
+            android:textColorHint="#757575"
+            tools:ignore="RtlSymmetry,TextFields,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/save_button_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/purple_500"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:minHeight="48dp"
+            android:paddingVertical="10dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:cornerRadius="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</FrameLayout>
