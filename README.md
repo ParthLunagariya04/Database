@@ -10,6 +10,7 @@
 #### Sign In and Sign up using SQLite and Room Db 
 #### Required validation are applide. Such as User name msut be unique, gmail validation, password validation like password must contain one upper-case, lower-case and special character, image uploading;
 #### Stay logged in using shared preferences.
+#### Swipe refresh
 #### User has a choice that he/she want to store their data in which databse
 #### While we are talking about SQLite databse - Multiple user login and sign up supported, user can delete single data or whole databse at a time, user guide screen with video so the user can get to know about the application, recycler view animation.
 #### While we are talking about the Room db - Multiple user sign in and sign up are supported, sign up user details has been shown in drower header, add multiple contact, animation in recycler view, swipe delete with animation, custom beautiful dialog, user can see his/her contact's details and he/she can edit it, some animation are applide in contact details, attractive UI, user can pick image from gallery or camera.
