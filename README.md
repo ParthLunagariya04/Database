@@ -1,11 +1,10 @@
 # Database App
-<img src="https://user-images.githubusercontent.com/72681916/192969211-811b714c-74d5-4b06-8104-041feef83c3f.jpeg" height="500" />
-<img src="https://user-images.githubusercontent.com/72681916/192969243-0e57bba4-a348-482e-ae3a-ab7896b540ec.jpeg" height="500" />
+
+<img src="https://user-images.githubusercontent.com/72681916/192969211-811b714c-74d5-4b06-8104-041feef83c3f.jpeg" height="500" /><img src="https://user-images.githubusercontent.com/72681916/192969243-0e57bba4-a348-482e-ae3a-ab7896b540ec.jpeg" height="500" />
 <img src="https://user-images.githubusercontent.com/72681916/192969257-c7d64ad5-410e-4d3b-9fb0-c0d3a1acf74a.jpeg" height="500" />
 <img src="https://user-images.githubusercontent.com/72681916/192969293-4687891b-621b-442d-a503-df1705f579f3.jpeg" height="500" />
 <img src="https://user-images.githubusercontent.com/72681916/192969336-e06389f7-cd2d-4e18-85a1-baec4125b4ee.jpeg" height="500" />
 
-##### Developer- Parth Lunagariya
 ## Key features of app 
 #### This app is designed to perform CRUD operation in two database which is namely SQLite And Room databse
 #### Sign In and Sign up using SQLite and Room Db 
