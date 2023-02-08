@@ -5,7 +5,7 @@
 <img src="https://user-images.githubusercontent.com/72681916/192969293-4687891b-621b-442d-a503-df1705f579f3.jpeg" height="500" />
 <img src="https://user-images.githubusercontent.com/72681916/192969336-e06389f7-cd2d-4e18-85a1-baec4125b4ee.jpeg" height="500" />
 
-## Key features of app 
+## Key features of the app 
 #### This app is designed to perform CRUD operation in two database which is namely SQLite And Room databse
 #### Sign In and Sign up using SQLite and Room Db 
 #### Required validation are applide. Such as User name msut be unique, gmail validation, password validation like password must contain one upper-case, lower-case and special character, image uploading;
